@@ -142,7 +142,7 @@ export default function App() {
           <div className="w-12 h-12 bg-emerald-500 rounded-2xl flex items-center justify-center shadow-lg transform rotate-3">
             <TreeIcon className="w-7 h-7 text-white" />
           </div>
-          <span className="text-3xl font-black text-emerald-900 tracking-tighter italic">Forest Focus</span>
+          <span className="text-3xl font-black text-emerald-900 tracking-tighter italic">Ardelius</span>
         </div>
         <div className="flex gap-4">
           <div className="bg-white px-6 py-3 rounded-full border-2 border-emerald-100 flex items-center gap-2 shadow-xl">

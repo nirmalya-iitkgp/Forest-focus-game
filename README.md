@@ -1,56 +1,66 @@
-# Forest Focus 🌲🐰
+# 🌲 Ardelius
 
-A production-ready digital detox Pomodoro app built with React, TypeScript, and Tailwind CSS.
+> **A Sanctuary for Your Productivity**
 
-## The Concept
-"Forest Focus" turns your attention into a living ecosystem. By focusing, you grow a barren land into a lush forest. By resting, you invite bunny families to move in. By straying, you face the storm.
+Welcome to **Ardelius**, a digital detox focus app where your attention breathes life into a vibrant ecosystem. 🌿🐰
 
-## Features
-- **Dynamic State Machine**: Handles `IDLE`, `FOCUSING`, `BREAK`, `STORM`, and `RECOVERY`.
-- **Ecosystem Growth**:
-  - Forest grows (0-100%) during focus sessions.
-  - Bunny family unlocks at 20%, 50%, and 80% milestones.
-  - **Scars**: Permanent visual reminders of sessions where you got distracted but returned.
-  - **Winter Mode**: A "no-guilt" penalty. If grace expires, next session growth is 30% slower.
-- **Distraction Detection**:
-  - Automatically enters `STORM` state if you switch tabs or stop interacting with the app.
-  - 10-minute grace period to return.
-- **Persistence**: Stats and settings saved to LocalStorage.
-- **Responsive & Accessible**: Minimal modern UI, keyboard-friendly controls, and ARIA live regions.
+---
 
-## How it works (The Rules)
-1. **Starting**: Click "Start Focus". The sun rises and trees begin to grow.
-2. **Distraction**: If you switch tabs, the sky darkens and a storm begins. You have X minutes (configurable) to return.
-3. **Recovery**: If you return during the storm, your forest recovers but keeps a "scar".
-4. **Completion**: Complete the timer to see your forest bloom and bunnies jump!
+## 🌟 The Experience
 
-## Setup & Local Run
-This app is built with Vite.
+In Ardelius, time is your most precious resource. As you focus, a barren patch of land transforms into a lush, thriving forest. But be careful—the world of Ardelius is sensitive to your presence.
 
-1. **Install Dependencies**:
+### 🎨 Visual Journey
+- **0% - 20%**: The first sprouts appear. 🌱
+- **20% - 50%**: Saplings begin to reach for the sky. 🌳
+- **50% - 80%**: A dense canopy forms, and the first bunnies move in. 🐰
+- **80% - 100%**: A full bloom ecosystem, teeming with life. ✨
+
+---
+
+## 🛠️ Key Features
+
+### ⏱️ Focused Growth
+Standard 25-minute Pomodoro sessions that reward you with actual visual progress. No more boring numbers—watch your impact in real-time.
+
+### 🌩️ The Storm Mechanics
+Ardelius notices when you wander off. If you switch tabs or leave the app, a **Storm Warning** triggers. You have a grace period to return before the frost sets in, leaving a permanent (but beautiful) **Resilience Scar** on your landscape.
+
+### ❄️ Winter Mode
+True discipline is tested in the cold. If a session is abandoned, your next session enters **Winter Mode**, where growth is slower, requiring more heart to recover the green.
+
+---
+
+## 🧩 Technical Stack
+
+- **Framework**: [React 19](https://react.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Motion](https://motion.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+---
+
+## 🚀 Getting Started
+
+1. **Install dependencies**:
    ```bash
    npm install
    ```
-2. **Run Dev Server**:
+
+2. **Start the development server**:
    ```bash
    npm run dev
    ```
-3. **Build for Production**:
+
+3. **Build for production**:
    ```bash
    npm run build
    ```
 
-## Folder Structure
-- `src/App.tsx`: Main logic and state management.
-- `src/hooks.ts`: Custom hooks for Timer, Visibility, Inactivity, and LocalStorage.
-- `src/components/`:
-  - `ForestScene.tsx`: Visual SVG/Tailwind representation of the forest.
-  - `TimerDisplay.tsx`: The countdown and main controls.
-  - `SettingsModal.tsx`: Configuration for durations.
-- `src/types.ts`: TypeScript interfaces and enums.
+---
 
-## Future Plans (v2)
-- Soundscapes (Fireplace, Rain, Wind).
-- Different biomes (Desert, Tundra).
-- Export stats as a data report.
-- Syncing across devices with Firebase.
+## 🌈 Design Philosophy
+Ardelius is built on the principle of **Gentle Productivity**. We avoid shame and guilt. Instead, we use your natural desire to protect and grow to help you stay focused. Every scar on your forest is a testament to a moment you chose to come back.
+
+**Plant your first seed today.** 🌲
