@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'motion/react';
 import { Play, Pause, RotateCcw, Settings2, Coffee } from 'lucide-react';
 import { SessionState } from '../types';
 
