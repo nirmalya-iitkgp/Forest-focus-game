@@ -87,4 +87,24 @@ describe('Ardelius Forest Ecosystem Logic', () => {
     forestAudio.setMuted(false);
     expect(forestAudio.getMuted()).toBe(false);
   });
+
+  it('verifies sanctuary bunny companions and thresholds', () => {
+    const companions = [
+      { name: 'Clover', threshold: 10 },
+      { name: 'Hazel', threshold: 40 },
+      { name: 'Pip', threshold: 70 },
+    ];
+
+    expect(companions.map(c => c.name)).toEqual(['Clover', 'Hazel', 'Pip']);
+    expect(companions[0].threshold).toBeLessThan(companions[1].threshold);
+    expect(companions[1].threshold).toBeLessThan(companions[2].threshold);
+  });
+
+  it('supports procedural audio triggers without errors', () => {
+    expect(() => forestAudio.playMushroomPop()).not.toThrow();
+    expect(() => forestAudio.playRustle()).not.toThrow();
+    expect(() => forestAudio.playBunnyHop()).not.toThrow();
+    expect(() => forestAudio.playChime(1.5)).not.toThrow();
+    expect(() => forestAudio.toggleNatureAmbience(false)).not.toThrow();
+  });
 });

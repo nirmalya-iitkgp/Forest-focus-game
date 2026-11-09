@@ -8,33 +8,45 @@ Welcome to **Ardelius**, a digital detox focus app where your attention breathes
 
 ## 🌟 The Experience
 
-In Ardelius, time is your most precious resource. As you focus, a barren patch of land transforms into a lush, thriving 3D floating meadow. But be careful—the world of Ardelius is sensitive to your presence.
+In Ardelius, time is your most precious resource. As you focus, a barren patch of land transforms into a lush, thriving 3D floating meadow diorama. But be careful—the world of Ardelius is sensitive to your presence.
 
 ### 🎨 Visual Journey (Procedural 3D World)
-- **0% - 20%**: The first gentle sprouts emerge from the soil. 🌱
-- **20% - 50%**: Multi-tiered pine and deciduous trees take root. 🌳
-- **50% - 80%**: A dense canopy with wildflowers forms, and the first bunnies settle in. 🐰
-- **80% - 100%**: A flourishing ecosystem teeming with up to 3 happy bunnies, swaying trees, and floating light spores. ✨
+- **0% - 20%**: The first gentle seedling sprouts from the soil. 🌱
+- **20% - 50%**: Multi-tiered evergreen pines, leafy oaks, white birches, and forest toadstools take root. 🌳
+- **50% - 80%**: A dense canopy with stepping stone paths and wildflowers forms; your first bunny companion moves in! 🐰
+- **80% - 100%**: A flourishing sanctuary with flowering blossom trees, up to 3 bunny companions, and floating light spores. ✨
 
 ---
 
 ## 🛠️ Key Features
 
 ### 🎮 Interactive 3D Three.js Diorama
-- **Drag & Rotate**: Freely rotate the 3D island with touch or mouse drag to admire your forest from any angle.
-- **Camera Angles**:
-  - **Overview**: Sweeping 3D isometric perspective with gentle idle orbit.
-  - **🐰 Bunny Cam**: Close-up view of the bunnies resting and hopping in the grass.
-  - **Zen Top-Down**: Peaceful top-down garden view for minimal distraction.
-- **Click Interactions**:
-  - Pet bunnies by clicking on them to watch them hop high with cheerful ear twitches!
-  - Touch trees to rustle the foliage in the breeze.
-- **State-Responsive Atmosphere & Weather Particles**:
-  - **Focusing**: Warm golden sunlight with floating sunbeams and pollen spores.
-  - **Restful Recess**: Twilight lavender atmosphere with glowing fireflies.
-  - **Gentle Storm**: Low-poly drifting thunderclouds, procedural rain particles, and distant lightning flashes.
-  - **Winter Mode**: Soft falling snow blankets the island, turning conifers frosted white.
+- **Drag & Orbit**: Freely rotate the 3D island with touch or mouse drag to inspect your forest from any angle.
+- **Camera Presets**:
+  - **Overview**: Isometric perspective with gentle automatic idle orbit.
+  - **🐰 Bunny Cam**: Low-angle intimate view of your bunny companions in the grass.
+  - **Zen Top-Down**: Distraction-free aerial garden view.
+- **Atmospheric Time-of-Day Lighting**:
+  - 🌅 **Dawn**: Gentle rosy-peach morning sunlight.
+  - ☀️ **Day**: Crisp natural midday sunshine with warm highlights.
+  - 🌇 **Sunset**: Golden-hour ambient glow.
+  - 🌌 **Night**: Peaceful starry twilight with cool moonlight.
+- **Zen Fullscreen Mode**: Expand the 3D sanctuary into an immersive distraction-free viewport for multi-monitor setups.
+- **Clickable Tactile Interactions**:
+  - Pet bunnies to trigger happy hops, ear wiggles, squeaks, and heart particle bursts.
+  - Touch trees to rustle leaves with realistic leaf audio.
+  - Tap toadstools to trigger a playful marimba pop and wobble.
+- **Weather & Storm Particles**:
+  - **Focusing**: Floating sunbeams and golden pollen spores.
+  - **Restful Recess**: Lavender twilight with drifting firefly motes.
+  - **Gentle Storm Warning**: Low-poly drifting thunderclouds, procedural rainfall, and lightning flashes.
+  - **Winter Mode**: Soft falling snowflakes coating conifers in frosty white.
 - **Kintsugi Resilience Scars**: Glowing golden inlay veins embedded in the earth representing moments you overcame distraction and returned to shelter.
+
+### 🐰 Meet Your Forest Companions
+- **Clover** (Unlocked at 10% Focus): An energetic pure white bunny with pink ears who loves jumping high.
+- **Hazel** (Unlocked at 40% Focus): A cozy caramel bunny who enjoys peaceful rests by the stepping stones.
+- **Pip** (Unlocked at 70% Focus): A gentle slate-grey bunny adorned with a wildflower crown.
 
 ### 🎵 Procedural Forest Audio Ambience
 - Real-time Web Audio synthesizer for gentle wind chimes, peaceful breeze, rain patter, and cheerful bunny chirps.
@@ -43,10 +55,6 @@ In Ardelius, time is your most precious resource. As you focus, a barren patch o
 ### ⏱️ Gentle Focus Timer & Pomodoro
 - Default 25-minute focus session with customizable break and grace durations.
 - Compassionate non-punitive tone: no guilt, no shaming, no "fail" words.
-
-### 🌩️ The Storm & Return Mechanics
-- If you wander off or switch tabs during a focus session, a gentle storm begins to pass.
-- Returning before the grace timer ends lets you recover the soil with a golden resilience scar.
 
 ---
 

@@ -191,7 +191,7 @@ export default function App() {
               <div className="bg-emerald-50/50 p-4 rounded-3xl border border-emerald-100/50">
                 <div className="text-[10px] uppercase font-black text-emerald-600 mb-1 tracking-widest">Bunnies</div>
                 <div className="text-2xl font-black text-emerald-950 tabular-nums">
-                  {String(stats.growth >= 80 ? 3 : stats.growth >= 50 ? 2 : stats.growth >= 20 ? 1 : 0).padStart(2, '0')}
+                  {String(stats.growth >= 70 ? 3 : stats.growth >= 40 ? 2 : stats.growth >= 10 ? 1 : 0).padStart(2, '0')}
                 </div>
               </div>
               <div className="bg-rose-50/50 p-4 rounded-3xl border border-rose-100/50">
@@ -200,7 +200,22 @@ export default function App() {
               </div>
             </div>
 
-              <div className="pt-6 border-t border-emerald-100/50">
+            <div className="space-y-2">
+              <span className="text-[10px] font-black uppercase text-emerald-900 tracking-widest block">Forest Friends</span>
+              <div className="flex gap-2">
+                <div className={`flex-1 py-1.5 px-2 rounded-xl text-center text-[10px] font-black transition-all ${stats.growth >= 10 ? 'bg-emerald-100 text-emerald-800 border border-emerald-200' : 'bg-slate-100 text-slate-400'}`}>
+                  🐰 Clover
+                </div>
+                <div className={`flex-1 py-1.5 px-2 rounded-xl text-center text-[10px] font-black transition-all ${stats.growth >= 40 ? 'bg-amber-100 text-amber-800 border border-amber-200' : 'bg-slate-100 text-slate-400'}`}>
+                  🐰 Hazel
+                </div>
+                <div className={`flex-1 py-1.5 px-2 rounded-xl text-center text-[10px] font-black transition-all ${stats.growth >= 70 ? 'bg-indigo-100 text-indigo-800 border border-indigo-200' : 'bg-slate-100 text-slate-400'}`}>
+                  🐰 Pip
+                </div>
+              </div>
+            </div>
+
+            <div className="pt-6 border-t border-emerald-100/50">
               <div className="flex items-center gap-2 mb-3">
                 <Trophy className="w-4 h-4 text-emerald-600" />
                 <span className="text-[10px] font-black uppercase text-emerald-900 tracking-widest">Achievements</span>
